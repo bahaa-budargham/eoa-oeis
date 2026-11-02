@@ -1,0 +1,27 @@
+---
+
+### File 2: `CITATION.cff`
+On GitHub, click **Add file $\to$ Create new file**, name it **`CITATION.cff`**, paste this, and click **Commit changes**:
+
+```yaml
+cff-version: 1.2.0
+message: "If you use this census, dataset, or recurrence data, please cite it as below."
+title: "The Alphabet as a Sequence Engine: A Census of What Letter Names Generate, and What the OEIS Has Never Seen"
+authors:
+  - family-names: "Budargham"
+    given-names: "Bahaa"
+    orcid: "https://orcid.org/0009-0005-2955-3703"
+    affiliation: "Neurolabs R&D, Montreal"
+doi: "10.5281/zenodo.23858517"
+date-released: 2026-11-01
+url: "https://research.neurolabs.space"
+repository-code: "https://github.com/bahaa-budargham/eoa-oeis"
+keywords:
+  - "integer sequences"
+  - "OEIS"
+  - "symbolic dynamics"
+  - "combinatorics on words"
+  - "linear recurrences"
+  - "Perron-Frobenius"
+  - "graph spectra"
+license: "CC-BY-4.0"
